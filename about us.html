@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>college website template</title>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <img src="image/logo.png">
+            <div class="nav-link" id="navLink">
+                <i class="far fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About us</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+
+            </div>
+            <i class="far fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> About us</h1>
+
+    </section>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1> we are the world larget university</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                <a href="" class="hero-btn next-btn">explore</a>
+            </div>
+
+            <div class="about-col">
+                <img src="image/about.jpg" alt="">
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="footer">
+
+        <h4> About us</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s. </p>
+
+        <div class="icons">
+
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin"></i>
+
+
+        </div>
+
+    </section>
+
+    <script>
+
+        var nav = document.getElementById("navLink");
+        function showMenu() {
+            nav.style.right = "0";
+
+        }
+        function hideMenu() {
+            nav.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+
+</html>

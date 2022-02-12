@@ -1,0 +1,92 @@
+@media(max-width: 768px){
+
+/* ....................upper section............... */
+   .text-box h1{
+
+      font-size: 30px;
+   }
+
+   .nav-link ul li{
+
+      display: block;
+
+   }
+
+   .nav-link ul{
+
+      padding: 12px 30px;
+   }   
+
+   .nav-link{
+
+      height: 100vh;
+      width: 200px;
+      background: #4287f5;
+      position: fixed;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;      
+      transition: .4s all;
+
+   }
+
+   nav .far{
+
+      display: block;
+      font-size: 22px;
+      color: #fff;
+      margin: 10px;
+      cursor: pointer;
+   }
+
+   /* ....................course............... */
+
+   .row{
+
+       flex-direction: column;
+   }
+
+   .course{
+
+      padding: 35px;
+   }
+
+   .course-col p{
+
+      padding: 20px;
+      box-sizing: border-box;
+
+   }
+
+   .about-col{
+      text-align: justify;
+   }
+   /* ....................facilities............... */
+
+   .facilities{
+
+      padding: 36px;
+   }
+
+   /* ....................testimonials............... */
+
+   .testimonials-col img {
+
+      margin-left: 0px;
+      margin-right: 15px;
+   }
+
+   .testimonials-col div p{
+
+      padding-right:30px;
+      box-sizing: border-box;
+   }
+
+/* ....................footer............... */
+   .cta h1{
+
+      font-size: 24px;
+   }
+
+}
